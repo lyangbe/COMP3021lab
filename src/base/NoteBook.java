@@ -50,6 +50,7 @@ public class NoteBook {
 		Collections.sort(folders);
 		
 	}
+	//lab 3 
 	public List<Note> searchNotes(String keywords) {
 		List<Note> searchResult = new ArrayList<Note>();
 		for(Folder f : this.getFolders()) {

@@ -17,6 +17,7 @@ public class Note implements Comparable<Note>{
 	public Date getDate() {
 		return date;
 	}
+	
 	@Override
 	public int compareTo(Note o) {
 		if(date.after(o.date)) {

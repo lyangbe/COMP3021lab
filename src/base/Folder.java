@@ -35,6 +35,7 @@ public class Folder implements Comparable<Folder> {
 		}
 		return name+":"+nText+":"+nImage;
 	}
+	
 	@Override
 	public int compareTo(Folder o) {
 		return name.compareTo(o.getName());
