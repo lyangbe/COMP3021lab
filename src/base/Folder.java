@@ -61,7 +61,6 @@ public class Folder implements Comparable<Folder> {
 				i = i + 2;
 			}
 			result.add(curr);
-			//System.out.println(curr);
 			i++;
 		}
 		//System.out.println(result);
