@@ -1,6 +1,10 @@
 package base;
 import java.util.*;
-public class Folder implements Comparable<Folder> {
+public class Folder implements Comparable<Folder>, java.io.Serializable {
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
 	private ArrayList<Note> notes;
 	private String name;
 	public Folder (String name) {
