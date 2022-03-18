@@ -56,6 +56,7 @@ public class TextNote extends Note {
 		if(pathFolder ==""){
 			pathFolder = ".";
 		}
+		
 		String fileTitle = this.getTitle().replaceAll(" ", "_");
 		File file = new File(pathFolder+File.separator+fileTitle+".txt");
 		FileWriter fw = null;
