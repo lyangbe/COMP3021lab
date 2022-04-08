@@ -110,7 +110,6 @@ public class NoteBookWindow extends Application {
 		TextField txt_search = new TextField();
 		
 		Button btn_search = new Button("Search");
-		//btn_search.setPrefSize(100, 20);
 		btn_search.setOnAction(new EventHandler<ActionEvent> () {
 			@Override
 			public void handle(ActionEvent event) {
@@ -121,7 +120,6 @@ public class NoteBookWindow extends Application {
 		});
 
 		Button btn_clear = new Button("Clear");
-		//btn_clear.setPrefSize(100, 20);
 		btn_clear.setOnAction(new EventHandler<ActionEvent> () {
 			@Override
 			public void handle(ActionEvent event) {
